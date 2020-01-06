@@ -1,0 +1,2 @@
+2019-03-04 13:34:27.105 +03:00 [INF] Migrating database associated with context ApplicationDbContext
+2019-03-04 13:34:32.310 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data, this mode should only be enabled during development.

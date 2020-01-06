@@ -1,0 +1,12 @@
+﻿FROM microsoft/dotnet:sdk AS build-env
+WORKDIR /app
+EXPOSE 80
+
+# Copy everything else and build
+COPY . ./
+
+
+FROM microsoft/dotnet:aspnetcore-runtime
+WORKDIR /app
+COPY ./ .
+ENTRYPOINT ["dotnet", "IdentityServer.API.dll"]
