@@ -16,4 +16,4 @@ curl -X POST \
   -H 'Content-Type: application/x-www-form-urlencoded' \
   -H 'Postman-Token: 80b5e05b-5925-406e-affb-338d43c5f23d' \
   -H 'cache-control: no-cache' \
-  -d 'grant_type=password&client_id=Article.API.Client&client_secret=secret&username=admin&password=admin123&scope=Article.API&undefined='
+  -d 'grant_type=password&client_id=Article.API.Client&client_secret=secret&username=admin&password=Password123!&scope=Article.API&undefined='
