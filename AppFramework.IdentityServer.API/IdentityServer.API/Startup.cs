@@ -229,7 +229,7 @@ namespace IdentityServer.API
                         {
                             Id = Guid.NewGuid()
                         };
-                        userManager.CreateAsync(identityUser, testUser.Password).Wait();
+                        userManager.CreateAsync(identityUser, "Password123!").Wait();
                         userManager.AddClaimsAsync(identityUser, testUser.Claims.ToList()).Wait();
                     }
                 }
